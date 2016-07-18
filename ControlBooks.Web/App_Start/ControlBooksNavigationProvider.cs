@@ -46,6 +46,22 @@ namespace ControlBooks.Web
                         icon: "fa fa-pencil",
                         requiredPermissionName: PermissionNames.Pages_Users
                         )
+               ).AddItem(
+                        new MenuItemDefinition(
+                        "Publishers",
+                        L("Publishers"),
+                        url: "#publishers",
+                        icon: "fa fa-pencil",
+                        requiredPermissionName: PermissionNames.Pages_Users
+                        )
+               ).AddItem(
+                        new MenuItemDefinition(
+                        "Books",
+                        L("Books"),
+                        url: "#books",
+                        icon: "fa fa-pencil",
+                        requiredPermissionName: PermissionNames.Pages_Users
+                        )
                 ).AddItem(
                     new MenuItemDefinition(
                         "About",

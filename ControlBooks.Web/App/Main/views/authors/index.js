@@ -67,7 +67,7 @@
                 vm.getListAutor();
             };
             function refreshTable() {
-                alert('refresh');
+              
                 vm.listAutor = [];
                 vm.getListAutor();
             }

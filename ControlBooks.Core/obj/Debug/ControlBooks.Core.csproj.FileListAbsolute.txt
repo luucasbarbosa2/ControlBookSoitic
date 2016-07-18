@@ -27,3 +27,4 @@ C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.C
 C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.Core\bin\Debug\System.Collections.Immutable.xml
 C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.Core\obj\Debug\ControlBooks.Core.dll
 C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.Core\obj\Debug\ControlBooks.Core.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.Core\obj\Debug\ControlBooks.Core.csprojResolveAssemblyReference.cache

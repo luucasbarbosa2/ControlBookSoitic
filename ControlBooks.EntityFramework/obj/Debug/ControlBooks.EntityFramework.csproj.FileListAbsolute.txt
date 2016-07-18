@@ -61,3 +61,5 @@ C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.E
 C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.EntityFramework\obj\Debug\ControlBooks.EntityFramework.csproj.GenerateResource.Cache
 C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.EntityFramework\obj\Debug\ControlBooks.EntityFramework.dll
 C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.EntityFramework\obj\Debug\ControlBooks.EntityFramework.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.EntityFramework\obj\Debug\ControlBooks.Migrations.create_table_Publisher.resources
+C:\Users\lucas\Documents\Visual Studio 2015\Projects\ControlBooks\ControlBooks.EntityFramework\obj\Debug\ControlBooks.Migrations.create_table_books.resources

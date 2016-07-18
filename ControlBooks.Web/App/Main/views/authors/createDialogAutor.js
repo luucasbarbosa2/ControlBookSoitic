@@ -110,15 +110,3 @@
 
 
 
-/*(function() {
-    var app = angular.module('app')
-        .controller('app.views.authors.createDialogAutor',
-        [
-            '$uiModalInstance', 'params', '$scope',
-            function($uibModalInstance, params, $scope) {
-                var vm = this;
-            }
-        ]);
-
-
-})();*/

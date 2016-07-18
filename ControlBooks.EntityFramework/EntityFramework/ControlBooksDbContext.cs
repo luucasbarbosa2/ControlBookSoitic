@@ -5,6 +5,8 @@ using ControlBooks.MultiTenancy;
 using ControlBooks.Users;
 using ControlBooks.Authors;
 using System.Data.Entity;
+using ControlBooks.Books;
+using ControlBooks.Publishers;
 
 namespace ControlBooks.EntityFramework
 {
@@ -13,6 +15,8 @@ namespace ControlBooks.EntityFramework
         //TODO: Define an IDbSet for your Entities...
 
         public virtual IDbSet<Autor> Autor { get; set; }
+        public virtual IDbSet<Publisher> Publisher { get; set; }
+        public virtual IDbSet<Book> Book { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

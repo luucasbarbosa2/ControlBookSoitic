@@ -180,6 +180,14 @@
     <Compile Include="Migrations\201607142003316_Create_Table_Autor.Designer.cs">
       <DependentUpon>201607142003316_Create_Table_Autor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607172221573_create_table_Publisher.cs" />
+    <Compile Include="Migrations\201607172221573_create_table_Publisher.Designer.cs">
+      <DependentUpon>201607172221573_create_table_Publisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607180431218_create_table_books.cs" />
+    <Compile Include="Migrations\201607180431218_create_table_books.Designer.cs">
+      <DependentUpon>201607180431218_create_table_books.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ControlBooksDataModule.cs" />
@@ -250,6 +258,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201607142003316_Create_Table_Autor.resx">
       <DependentUpon>201607142003316_Create_Table_Autor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607172221573_create_table_Publisher.resx">
+      <DependentUpon>201607172221573_create_table_Publisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607180431218_create_table_books.resx">
+      <DependentUpon>201607180431218_create_table_books.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

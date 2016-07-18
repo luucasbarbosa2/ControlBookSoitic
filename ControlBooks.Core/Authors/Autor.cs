@@ -8,6 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ControlBooks.Books;
 
 namespace ControlBooks.Authors
 {
@@ -25,7 +26,10 @@ namespace ControlBooks.Authors
 
         [Required]
         public virtual int Idade { get; set; }
+
         public int TenantId { get; set; }
+
+        public ICollection<Book> Books { get; set; }
 
         public static Autor Create(String nome, String sobrenome, int idade, int tenantId)
         {

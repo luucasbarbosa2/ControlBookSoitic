@@ -93,6 +93,9 @@
     <Compile Include="Authors\Autor.cs" />
     <Compile Include="Authors\AutorManage.cs" />
     <Compile Include="Authors\IAutorManage.cs" />
+    <Compile Include="Books\Book.cs" />
+    <Compile Include="Books\BookManage.cs" />
+    <Compile Include="Books\IBookManage.cs" />
     <Compile Include="ControlBooksConsts.cs" />
     <Compile Include="ControlBooksCoreModule.cs" />
     <Compile Include="Authorization\ControlBooksAuthorizationProvider.cs" />
@@ -108,6 +111,9 @@
     <Compile Include="Authorization\Roles\Role.cs" />
     <Compile Include="Authorization\Roles\RoleManager.cs" />
     <Compile Include="Authorization\Roles\RoleStore.cs" />
+    <Compile Include="Publishers\IPublisherManage.cs" />
+    <Compile Include="Publishers\Publisher.cs" />
+    <Compile Include="Publishers\PublisherManage.cs" />
     <Compile Include="Users\User.cs" />
     <Compile Include="Users\UserManager.cs" />
     <Compile Include="Users\UserStore.cs" />
