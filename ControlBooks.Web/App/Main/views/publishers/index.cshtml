@@ -1,0 +1,40 @@
+﻿<div ng-controller="app.views.publishers.index as vm">
+    <div>
+        <h1> Cadastro de Editoras </h1>
+    </div>
+    <div class="form-group pull-right">
+        <button type="button" class="btn  btn-primary pull-right" ng-click="vm.openDialog(false);">
+            <span class=" fa fa-plus btn-color-white"> <span class="btn-beautiful"> Adicionar Editora</span></span>
+        </button>
+    </div>
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in vm.listPublisher">
+                    <th>{{item.nome}}</th>
+                    <td>{{item.descricao}}</td>
+                    <td>
+                        <a class=" glyphicon glyphicon-pencil" ng-click="vm.openDialog(item, true);"></a>
+                    </td>
+                    <td>
+                        <a class=" fa fa-trash text-danger" ng-click="vm.deletePublisher(item)"></a>
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+</div>

@@ -1,0 +1,42 @@
+﻿
+<div>
+    <div class="modal-header bg-primary">
+        <h4> Cadastrar Autor</h4>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <label>Nome:</label>
+                </div>
+                <div class="col-md-12">
+                    <input type="text" id ="nome" ng-model="createDialogAutor.autor.nome" class="col-md-12"/>
+                </div>
+                <div class="col-md-12">
+                    <label>Sobrenome:</label>
+                </div>
+                <div class="col-md-12">
+                    <input type="text" id ="sobrenome" ng-model="createDialogAutor.autor.sobrenome" class="col-md-12"/>
+                </div>
+                <div class="col-md-12">
+                    <label>Idade</label>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" id = "idade" ng-model="createDialogAutor.autor.idade" class="col-md-12" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <div class="pull-right col-md-2">
+        <button type="button" class="btn bg-success pull-right" ng-click ="ctrDialogAutor.save();">
+            <span class="fa fa-plus btn-color-white"><span class ="btn-beautiful">Salvar</span></span>
+        </button>
+    </div>
+    <div class="pull-right col-md-2">
+        <button type="button" class="btn bg-warning pull-right" ng-click ="ctrDialogAutor.cancel();">
+            <span class ="btn-color-white fa fa-times"><span class ="btn-beautiful">Cancelar</span></span>
+        </button>
+    </div>
+</div>
